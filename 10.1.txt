@@ -1,0 +1,26 @@
+1)Needs for Hive:
+    
+    *Hive is used   for querying data stored in  Hadoop Distributed Filesystem (HDFS) in sql dialect as most of the data
+warehouse related applications are implemented using relational databases which uses SQL as the query language. 
+    *Hive reduces the barrier for moving these applications to Hadoop.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2)Is Hive suitable to be used for OLTP systems? Explain in brief:
+No,Hive is not suitable for OLTP system since it does not provide insert and update at row level as it generally deals with large chunks of data. 
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+3)What is a metastore in Hive?:
+                               
+              The metastore in Hive stores the metadata for Hive tables and partitions in a relational database.
+                           
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+4)Can we run unix shell commands from hive? Give 5 examples and share the screenshot: 
+yes we can  run unix shell commands from hive.
+ 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+5)Hive can process any type of data formats? Explain in brief:
+                                              Yes, Hive uses the SerDe interface for Input output operations. Different SerDe interfaces can read and 
+write any type of data. In normal it directly processes the data where as if different types of data is present in  Hadoop then Hive use different SerDe interface 
+to process such data.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
